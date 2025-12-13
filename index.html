@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowEssence | Radiant Skin & Healthy Hair Starts Here</title>
+    <meta name="description" content="Transform your skincare and haircare routine with simple, effective products designed for real results. Glow, hydration, and strength – naturally.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                GlowEssence
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#cta" class="nav-cta">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge animate-fade-in">
+                    <span class="badge-icon">🌿</span>
+                    Trusted by 50,000+ Happy Customers
+                </div>
+                
+                <!-- Headline Options - Showing Primary -->
+                <h1 class="hero-headline animate-fade-in-up">
+                    Your Skin & Hair Deserve 
+                    <span class="highlight">Better</span> Care
+                </h1>
+                
+                <!-- Alternative Headlines (commented for reference)
+                <h1>Glow Brighter. Feel Stronger. Look Amazing.</h1>
+                <h1>Simple Routines. Real Results. Beautiful You.</h1>
+                -->
+                
+                <p class="hero-subheadline animate-fade-in-up delay-1">
+                    Tired of complicated routines that don't deliver? Discover skincare and haircare 
+                    that actually works – designed for real people with real lives.
+                </p>
+                
+                <!-- Alternative Subheadline
+                <p>Join thousands who've transformed their daily self-care into something simple, 
+                effective, and genuinely enjoyable.</p>
+                -->
+                
+                <div class="hero-cta-group animate-fade-in-up delay-2">
+                    <a href="#products" class="btn btn-primary btn-lg">
+                        <span>Shop Best Sellers</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#how-it-works" class="btn btn-secondary btn-lg">
+                        Take The Quiz
+                    </a>
+                </div>
+                
+                <div class="hero-trust animate-fade-in-up delay-3">
+                    <div class="trust-avatars">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <span class="avatar-count">+50K</span>
+                    </div>
+                    <div class="trust-text">
+                        <div class="stars">★★★★★</div>
+                        <span>4.9/5 from 12,000+ reviews</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual animate-fade-in-left delay-2">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&h=700&fit=crop" 
+                         alt="Woman with glowing skin holding skincare product" 
+                         class="hero-image">
+                    <div class="floating-card card-1">
+                        <span class="card-icon">✨</span>
+                        <div class="card-text">
+                            <strong>Visible Glow</strong>
+                            <span>In 2 weeks</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <span class="card-icon">💧</span>
+                        <div class="card-text">
+                            <strong>Deep Hydration</strong>
+                            <span>All day long</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <span class="card-icon">🌱</span>
+                        <div class="card-text">
+                            <strong>Clean Formula</strong>
+                            <span>Gentle care</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Problem Awareness Section -->
+    <section class="problems" id="problems">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">We Get It</span>
+                <h2 class="section-title">
+                    Struggling With These <span class="highlight">Frustrations</span>?
+                </h2>
+                <p class="section-subtitle">
+                    You're not alone. These are the exact challenges our community faced before finding their perfect routine.
+                </p>
+            </div>
+            
+            <div class="problems-grid">
+                <div class="problem-card" data-aos="fade-up">
+                    <div class="problem-icon">😔</div>
+                    <h3>Dull, Tired-Looking Skin</h3>
+                    <p>No matter what you try, your skin just doesn't have that healthy, radiant glow you're looking for.</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="problem-icon">😣</div>
+                    <h3>Acne & Breakout Confusion</h3>
+                    <p>Endless products, conflicting advice, and nothing seems to help your skin find its balance.</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="problem-icon">🏜️</div>
+                    <h3>Dry, Dehydrated Skin</h3>
+                    <p>Tight, flaky skin that drinks up moisturizer but still feels parched by midday.</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="problem-icon">😰</div>
+                    <h3>Uneven Skin Tone</h3>
+                    <p>Dark spots and pigmentation that make you reach for concealer instead of confidence.</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="problem-icon">💇</div>
+                    <h3>Hair Fall & Thinning</h3>
+                    <p>Finding more hair in your brush than on your head, and worrying it won't stop.</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="problem-icon">🔥</div>
+                    <h3>Damaged, Weak Hair</h3>
+                    <p>Split ends, breakage, and hair that's lost its bounce and shine from styling or stress.</p>
+                </div>
+            </div>
+            
+            <p class="problems-cta-text">
+                Sound familiar? <strong>There's a better way.</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- Solution / Brand Promise Section -->
+    <section class="solution" id="solution">
+        <div class="container">
+            <div class="solution-wrapper">
+                <div class="solution-image">
+                    <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&h=500&fit=crop" 
+                         alt="Elegant skincare products arrangement">
+                    <div class="solution-badge">
+                        <span class="badge-number">3</span>
+                        <span class="badge-text">Simple Steps</span>
+                    </div>
+                </div>
+                
+                <div class="solution-content">
+                    <span class="section-label">Our Promise</span>
+                    <h2 class="section-title">
+                        Skincare & Haircare 
+                        <span class="highlight">Simplified</span>
+                    </h2>
+                    
+                    <p class="solution-lead">
+                        We believe beautiful skin and healthy hair shouldn't require a chemistry degree 
+                        or hours of research. That's why we created GlowEssence.
+                    </p>
+                    
+                    <div class="solution-points">
+                        <div class="solution-point">
+                            <div class="point-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="point-content">
+                                <strong>Easy to Follow</strong>
+                                <span>No complicated 10-step routines. Just simple, effective daily care.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="solution-point">
+                            <div class="point-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="point-content">
+                                <strong>Consistency Made Simple</strong>
+                                <span>Products designed to work together, so you stay on track effortlessly.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="solution-point">
+                            <div class="point-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="point-content">
+                                <strong>Daily Care, Real Results</strong>
+                                <span>Gentle enough for everyday use, powerful enough to see the difference.</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#products" class="btn btn-primary">
+                        Discover Your Routine
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">
+                    Benefits You'll <span class="highlight">Love</span>
+                </h2>
+                <p class="section-subtitle">
+                    Real benefits for real people. Here's what our products are designed to support.
+                </p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">✨</div>
+                    </div>
+                    <h3>Radiant, Glowing Skin</h3>
+                    <p>Formulated to support your skin's natural radiance, helping you achieve that healthy, lit-from-within glow.</p>
+                    <ul class="benefit-list">
+                        <li>Supports natural luminosity</li>
+                        <li>Helps reduce dull appearance</li>
+                        <li>Enhances skin's natural vitality</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card featured">
+                    <div class="benefit-badge">Most Popular</div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">💧</div>
+                    </div>
+                    <h3>Deep, Lasting Hydration</h3>
+                    <p>Moisture that stays. Our formulas are designed to help your skin retain hydration throughout the day.</p>
+                    <ul class="benefit-list">
+                        <li>All-day moisture support</li>
+                        <li>Helps plump & soften</li>
+                        <li>Reduces dry, tight feeling</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">🌸</div>
+                    </div>
+                    <h3>Clear-Looking Skin Support</h3>
+                    <p>Gentle formulas that help support balanced, clear-looking skin without harsh ingredients.</p>
+                    <ul class="benefit-list">
+                        <li>Supports skin balance</li>
+                        <li>Helps minimize appearance of pores</li>
+                        <li>Promotes even-looking tone</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">💪</div>
+                    </div>
+                    <h3>Stronger, Healthier-Looking Hair</h3>
+                    <p>Nourishing care that helps support hair strength and reduces the appearance of damage.</p>
+                    <ul class="benefit-list">
+                        <li>Supports hair strength</li>
+                        <li>Helps reduce breakage appearance</li>
+                        <li>Promotes healthy-looking shine</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">🌿</div>
+                    </div>
+                    <h3>Scalp Health Support</h3>
+                    <p>Healthy hair starts at the roots. Our haircare supports a balanced, comfortable scalp.</p>
+                    <ul class="benefit-list">
+                        <li>Supports scalp comfort</li>
+                        <li>Helps maintain balance</li>
+                        <li>Promotes healthy hair growth environment</li>
+                    </ul>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon">🤍</div>
+                    </div>
+                    <h3>Gentle & Routine-Friendly</h3>
+                    <p>Designed for daily use with gentle formulas that work for various skin and hair types.</p>
+                    <ul class="benefit-list">
+                        <li>Suitable for daily use</li>
+                        <li>Gentle on sensitive types</li>
+                        <li>Easy to incorporate</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="benefits-cta">
+                <a href="#products" class="btn btn-primary btn-lg">
+                    Start Your Glow Journey
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Getting Started</span>
+                <h2 class="section-title">
+                    Your Perfect Routine in <span class="highlight">3 Simple Steps</span>
+                </h2>
+                <p class="section-subtitle">
+                    No confusion. No overwhelm. Just a straightforward path to better skin and hair.
+                </p>
+            </div>
+            
+            <div class="steps-wrapper">
+                <div class="steps-line"></div>
+                
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=300&h=300&fit=crop" 
+                             alt="Taking skincare quiz on phone">
+                    </div>
+                    <div class="step-content">
+                        <h3>Take Our Quick Quiz</h3>
+                        <p>Answer a few simple questions about your skin and hair concerns. Takes less than 2 minutes!</p>
+                        <span class="step-time">⏱️ 2 minutes</span>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=300&h=300&fit=crop" 
+                             alt="Personalized skincare products">
+                    </div>
+                    <div class="step-content">
+                        <h3>Get Your Personalized Routine</h3>
+                        <p>We'll recommend the perfect products matched to your unique needs. No guesswork needed!</p>
+                        <span class="step-time">📦 Delivered to your door</span>
+                    </div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=300&h=300&fit=crop" 
+                             alt="Woman with glowing skin">
+                    </div>
+                    <div class="step-content">
+                        <h3>Enjoy Your Glow-Up</h3>
+                        <p>Follow your simple daily routine and watch your skin and hair transform. It really is that easy!</p>
+                        <span class="step-time">✨ See results in 2-4 weeks</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="how-cta">
+                <a href="#cta" class="btn btn-primary btn-lg">
+                    Take The Quiz Now
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <p class="cta-note">Free quiz • No commitment • Personalized results</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Real Results</span>
+                <h2 class="section-title">
+                    Join <span class="highlight">50,000+</span> Happy Customers
+                </h2>
+                <p class="section-subtitle">
+                    Don't just take our word for it. Here's what our community is saying.
+                </p>
+            </div>
+            
+            <div class="trust-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50000">0</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12000">0</span>
+                    <span class="stat-label">5-Star Reviews</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="95">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Would Recommend</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="30">0</span>
+                    <span class="stat-suffix">days</span>
+                    <span class="stat-label">Average to See Results</span>
+                </div>
+            </div>
+            
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "I've tried so many products before, but nothing worked like this. My skin finally has that glow I always wanted. The routine is so simple – just 3 steps morning and night!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Sarah M.">
+                            <div class="author-info">
+                                <strong>Sarah M.</strong>
+                                <span>Verified Buyer • 3 months using</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-badge">
+                            <span>🌟 Top Review</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "My hair was falling out so much, I was really worried. After using the haircare routine for 2 months, I'm seeing so much less hair in my brush. Feeling more confident!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="James K.">
+                            <div class="author-info">
+                                <strong>James K.</strong>
+                                <span>Verified Buyer • 2 months using</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "As someone with sensitive skin, I was nervous to try new products. These are so gentle but still effective! My skin looks clearer and feels so soft. Obsessed!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Emily R.">
+                            <div class="author-info">
+                                <strong>Emily R.</strong>
+                                <span>Verified Buyer • 4 months using</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "The hydration is unreal! My skin used to be so dry and flaky, especially in winter. Now it stays moisturized all day. My makeup applies so much better too."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=100&h=100&fit=crop&crop=face" alt="Maria L.">
+                            <div class="author-info">
+                                <strong>Maria L.</strong>
+                                <span>Verified Buyer • 6 months using</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "I was skeptical at first, but the results speak for themselves. Dark spots I've had for years are fading, and my skin tone looks more even. Worth every penny!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="David T.">
+                            <div class="author-info">
+                                <strong>David T.</strong>
+                                <span>Verified Buyer • 5 months using</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Finally, a haircare routine that doesn't weigh my hair down! It's bouncy, shiny, and so much stronger. My stylist even noticed the difference!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face" alt="Jessica W.">
+                            <div class="author-info">
+                                <strong>Jessica W.</strong>
+                                <span>Verified Buyer • 3 months using</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prevBtn" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn next" id="nextBtn" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <span class="badge-icon">🔒</span>
+                    <span>Secure Checkout</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="badge-icon">🚚</span>
+                    <span>Free Shipping</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="badge-icon">↩️</span>
+                    <span>30-Day Returns</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="badge-icon">💚</span>
+                    <span>Clean Ingredients</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products / Offer Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Best Sellers</span>
+                <h2 class="section-title">
+                    Choose Your <span class="highlight">Glow Journey</span>
+                </h2>
+                <p class="section-subtitle">
+                    Curated bundles designed for your specific needs. Everything you need, nothing you don't.
+                </p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&h=400&fit=crop" 
+                             alt="Glow Essentials Skincare Kit">
+                        <div class="product-badge">Skincare</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Glow Essentials Kit</h3>
+                        <p>Everything you need for radiant, hydrated skin. Perfect for beginners.</p>
+                        <ul class="product-includes">
+                            <li>✓ Gentle Cleanser (120ml)</li>
+                            <li>✓ Hydrating Serum (30ml)</li>
+                            <li>✓ Daily Moisturizer (50ml)</li>
+                            <li>✓ Bonus: Routine Guide</li>
+                        </ul>
+                        <div class="product-pricing">
+                            <div class="price-wrapper">
+                                <span class="price-original">$89</span>
+                                <span class="price-current">$69</span>
+                            </div>
+                            <span class="price-save">Save $20</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card featured">
+                    <div class="product-ribbon">Most Popular</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=400&h=400&fit=crop" 
+                             alt="Complete Glow Bundle">
+                        <div class="product-badge">Best Value</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Complete Glow Bundle</h3>
+                        <p>The ultimate skin + hair transformation package. Our customers' favorite!</p>
+                        <ul class="product-includes">
+                            <li>✓ Full Skincare Kit (4 products)</li>
+                            <li>✓ Haircare Essentials (3 products)</li>
+                            <li>✓ Weekly Treatment Mask</li>
+                            <li>✓ Scalp Serum</li>
+                            <li>✓ VIP Routine Guide + Support</li>
+                        </ul>
+                        <div class="product-pricing">
+                            <div class="price-wrapper">
+                                <span class="price-original">$189</span>
+                                <span class="price-current">$129</span>
+                            </div>
+                            <span class="price-save">Save $60</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400&h=400&fit=crop" 
+                             alt="Hair Strength System">
+                        <div class="product-badge">Haircare</div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Hair Strength System</h3>
+                        <p>Revitalize your hair from root to tip. Support strength and shine.</p>
+                        <ul class="product-includes">
+                            <li>✓ Strengthening Shampoo (250ml)</li>
+                            <li>✓ Nourishing Conditioner (250ml)</li>
+                            <li>✓ Scalp Treatment (30ml)</li>
+                            <li>✓ Bonus: Hair Health Guide</li>
+                        </ul>
+                        <div class="product-pricing">
+                            <div class="price-wrapper">
+                                <span class="price-original">$79</span>
+                                <span class="price-current">$59</span>
+                            </div>
+                            <span class="price-save">Save $20</span>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-block">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="offer-banner">
+                <div class="offer-content">
+                    <div class="offer-icon">🎁</div>
+                    <div class="offer-text">
+                        <h4>Limited Time: Free Gift with Every Order!</h4>
+                        <p>Order today and receive a complimentary mini hydrating mist ($19 value) + free shipping.</p>
+                    </div>
+                    <div class="offer-timer" id="offerTimer">
+                        <div class="timer-unit">
+                            <span class="timer-number" id="hours">23</span>
+                            <span class="timer-label">Hours</span>
+                        </div>
+                        <span class="timer-separator">:</span>
+                        <div class="timer-unit">
+                            <span class="timer-number" id="minutes">59</span>
+                            <span class="timer-label">Mins</span>
+                        </div>
+                        <span class="timer-separator">:</span>
+                        <div class="timer-unit">
+                            <span class="timer-number" id="seconds">59</span>
+                            <span class="timer-label">Secs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Got Questions?</span>
+                <h2 class="section-title">
+                    Frequently Asked <span class="highlight">Questions</span>
+                </h2>
+                <p class="section-subtitle">
+                    Everything you need to know before starting your glow journey.
+                </p>
+            </div>
+            
+            <div class="faq-wrapper">
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        <span>Who is GlowEssence for?</span>
+                        <div class="faq-icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            GlowEssence is designed for anyone (women and men, ages 18-40+) who wants a simple, effective approach to skincare and haircare. Whether you're dealing with dull skin, dryness, uneven tone, acne concerns, hair fall, or damaged hair – our products are formulated to support your specific needs. If you're tired of complicated routines and want something that actually works, GlowEssence is for you!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is it beginner-friendly? I know nothing about skincare!</span>
+                        <div class="faq-icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Absolutely! We designed GlowEssence specifically with beginners in mind. Each kit comes with a detailed routine guide that tells you exactly what to use, when to use it, and how to apply it. Our 3-step system is incredibly simple – cleanse, treat, moisturize. No confusion, no 10-step routines. Plus, our customer support team is always here to help if you have questions!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>When can I expect to notice results?</span>
+                        <div class="faq-icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Most of our customers report noticing improvements within 2-4 weeks of consistent daily use. You might see enhanced hydration and a subtle glow within the first week! For more significant changes like improved skin texture, reduced appearance of dark spots, or stronger-looking hair, we recommend using the products consistently for at least 4-8 weeks. Remember, everyone's skin and hair is unique, so results may vary.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I use these products every day?</span>
+                        <div class="faq-icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Yes! All our core products are formulated to be gentle enough for daily use. We believe consistency is key to seeing results, which is why we've created products that won't irritate your skin or hair with regular use. Some treatment products (like masks) are designed for weekly use – each product comes with clear usage instructions. If you have particularly sensitive skin, we recommend starting slowly and building up to daily use.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I get started?</span>
+                        <div class="faq-icon">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Getting started is easy! Here's what to do:
+                        </p>
+                        <ol>
+                            <li><strong>Take our quiz</strong> (2 minutes) to discover which products are right for your specific concerns.</li>
+                            <li><strong>Choose your kit</strong> – we'll recommend the perfect bundle based on your quiz results.</li>
+                            <li><strong>Place your order</strong> – enjoy free shipping and our 30-day satisfaction guarantee.</li>
+                            <li><strong>Follow your routine guide</strong> – included with every order to ensure you get the best results.</li>
+                        </ol>
+                        <p>That's it! Your journey to better skin and hair starts with a single click.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta">
+                <p>Still have questions?</p>
+                <a href="#" class="btn btn-outline">Contact Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="cta">
+        <div class="cta-bg-shapes">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <span class="section-label">Ready to Glow?</span>
+                <h2 class="cta-headline">
+                    Your Best Skin & Hair 
+                    <span class="highlight">Awaits</span>
+                </h2>
+                <p class="cta-subtext">
+                    Join over 50,000 people who've transformed their self-care routine with GlowEssence. 
+                    Simple products. Real results. Confidence that shows.
+                </p>
+                
+                <div class="cta-reassurance">
+                    <div class="reassurance-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>30-Day Money-Back Guarantee</span>
+                    </div>
+                    <div class="reassurance-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Free Shipping on All Orders</span>
+                    </div>
+                    <div class="reassurance-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Cancel Anytime, No Hassle</span>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#products" class="btn btn-primary btn-xl">
+                        <span>Start Your Glow Journey</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#how-it-works" class="btn btn-white btn-xl">
+                        Take The Free Quiz First
+                    </a>
+                </div>
+                
+                <div class="cta-trust">
+                    <div class="trust-avatars">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Customer">
+                    </div>
+                    <p><strong>50,000+</strong> happy customers can't be wrong</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">✦</span>
+                        GlowEssence
+                    </a>
+                    <p>Simple, effective skincare and haircare for real people with real lives.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Skincare</a></li>
+                        <li><a href="#">Haircare</a></li>
+                        <li><a href="#">Bundles</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Ingredients</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Join Our Community</h4>
+                    <p>Get exclusive offers, skincare tips, and early access to new products.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlowEssence. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+                <div class="payment-methods">
+                    <img src="https://cdn-icons-png.flaticon.com/128/349/349221.png" alt="Visa" width="40">
+                    <img src="https://cdn-icons-png.flaticon.com/128/349/349228.png" alt="Mastercard" width="40">
+                    <img src="https://cdn-icons-png.flaticon.com/128/349/349230.png" alt="Amex" width="40">
+                    <img src="https://cdn-icons-png.flaticon.com/128/888/888870.png" alt="PayPal" width="40">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
